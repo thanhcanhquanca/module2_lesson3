@@ -15,7 +15,7 @@ public class Arraymin {
 
         int min = arr[0];
 
-        for (int i = 2; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             if (min > arr[i]){
                 min = arr[i];
             }

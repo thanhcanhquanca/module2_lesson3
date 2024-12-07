@@ -32,6 +32,11 @@ public class AddindexArray {
 
         newArray[findIndex + 1] = input;
 
+        for (int i = findIndex + 1; i < array.length ; i++) {
+            newArray[i + 1] = array[i];
+        }
+
+
         return newArray;
     }
 
